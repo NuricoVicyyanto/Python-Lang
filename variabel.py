@@ -1,3 +1,4 @@
+# variabel
 nama = "Nurico Vicyyanto"
 print(nama)
 
