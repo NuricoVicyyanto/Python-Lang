@@ -26,4 +26,4 @@ Untuk menjalankan program python kita dapat menggunakan terminal python atau men
 print("Hello World")
 ```
 
-** Python bersifat case sansitif, artinya huruf besar dan kecil dianggap berbeda, sebagai contoh <mark>print()</mark> akan berhasil dieksekusi dan <mark>Print()</mark> akan gagal dieksekusi,keduanya dianggap berbeda karena perbedaan huruf besar dan kecil.
+** Python bersifat case sansitif, artinya huruf besar dan kecil dianggap berbeda, sebagai contoh <mark style="background-color: #FFFF00">print()</mark> akan berhasil dieksekusi dan <mark style="background-color: #FFFF00">Print()</mark> akan gagal dieksekusi,keduanya dianggap berbeda karena perbedaan huruf besar dan kecil.
