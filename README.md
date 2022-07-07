@@ -27,3 +27,25 @@ print("Hello World")
 ```
 
 ** Python bersifat case sansitif, artinya huruf besar dan kecil dianggap berbeda, sebagai contoh `print()` akan berhasil dieksekusi dan `Print()` akan gagal dieksekusi,keduanya dianggap berbeda karena perbedaan huruf besar dan kecil.
+
+### Komentar
+
+<p>Komentar adalah sebuah baris pada program yang tidak dieksekusi, tujuan dari dibuatnya komentar pada baris program adalah untuk menandai serta memberikan keterangan pada baris program.</p>
+<p>Komentar biasa digunakan untuk tujuan agar kita dapat mengingat kembali alur program yang kita tulis dan juga agar orang lain dapat memahami alur program yang kita tulis.</p>
+
+Pada python sendiri penulisan komentar dapat menngunakan tanda `#` untuk komentar satu baris dan tanda `""" """` untuk penulisan komentar lebih dari satu baris. Berikut adalah contoh penulisan komentar pada bahasa pemrograman Python:
+
+```python
+# ini adalah komentar
+# tulisan dengan tanda komentar tidak akan dieksekusi
+
+# komentar dengan menggunakan tanda pagar hanya dapat
+# digunakan untuk satu baris tulisan
+
+"""pada penulisan komentar untuk kalimat lebih satu baris menggunakan tanda 
+kutip 2 sebanyak 3 kali pada awal dan akhir"""
+
+print("Tulisan ini akan dieksekusi karena tidak terdapat tanda komentar")
+```
+
+### Tipe Data
