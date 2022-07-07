@@ -48,4 +48,4 @@ kutip 2 sebanyak 3 kali pada awal dan akhir"""
 print("Tulisan ini akan dieksekusi karena tidak terdapat tanda komentar")
 ```
 
-### Tipe Data
+### Coming Soon ...
