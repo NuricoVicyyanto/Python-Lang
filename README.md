@@ -47,5 +47,90 @@ kutip 2 sebanyak 3 kali pada awal dan akhir"""
 
 print("Tulisan ini akan dieksekusi karena tidak terdapat tanda komentar")
 ```
+
 ### Tipe Data
-#### Coming Soon ...
+
+<p>Tipe data merupakan nilai yang disimpan dalam memori komputer, Python memiliki beberapa macam tipe data dan setiap tipe data disimpan pada variabel untuk digunakan.</p>
+<p>Berikut merupakan tipe data dari bahasa pemrograman Python :</p>
+
+| Tipe Data | Penjelasan |
+| ------- | ----- |
+| **Boolean** | Menyatakan benar `True` yang memiliki nilai `1` dan False yang memiliki nila `0` |
+| **String** | Menyatakan kalimat atau karakter bisa berupa huruf atau angka dll., untuk menggunakan string ditandai dengan tanda `" "` atau `' '` |
+| **Integer** | Menyatakan bilangan bulat |
+| **Float** | Menyatakan bilangan desimal |
+| **hexadecimal** | Menyatakan bilangan dalam format hexadecimal yaitu bilangan berbasis 16 |
+| **Complex** | Menyatakan pasangan angka real dan imajiner |
+| **List** | Merupakan untaian data yang dapat menyimpan berbagai tipe data dan isinya dapat dirubah |
+| **Tuple** | Merupakan untaian data yang dapat menyimpan berbagai tipe data dan isinya tidak dapat dirubah |
+| **Dictionary** | Merupakan untaian data yang dapat menyimpan berbagai tipe data berupa pasangan penunjuk dan nilai |
+
+Adapun berikut merupakan contoh dari penggunaan tipe data pada bahasa pemrograman Python :
+
+```python
+# fungsi dari type() adalah untuk mengetahui dari tipe data yang dieksekusi
+# tipe data boolean
+print(type(True))
+print(type(False))
+
+# tipe data string
+print(type("Tipe data string"))
+print(type('tipe data string'))
+
+# tipe data integer
+print(type(26))
+
+# tipe data float
+print(type(26.8))
+
+# tipe data data hexadesimal
+print(hex(26))
+
+# tipe data complex
+print(type(5j))
+
+# tipe data list
+list = ["angga", "anggi", "anggun"]
+print(type(list))
+
+# tipe data tuple
+tuple = ("angga", "anggi", "anggun")
+print(tuple)
+print(type(tuple))
+
+# tipe data dictionary
+dict = {"nama":"angga", "status":"pengguna"}
+print(dict)
+print(type(dict))
+
+```
+
+### Variabel
+
+<p>Variabel adalah tempat yang digunakan untuk menampung data di memori yang memiliki nilai yang dapat diubah selama proses program. Pada Python variabel dapat menyimpan berbagai tipe data dan juga variabel di Python memiliki sifat yang dinamis dimana kita tidak perlu mendaklarasikan tipe data tertentu.</p>
+
+<p>Berikut merupakan contoh penggunaan variabel menggunakan bahasa pemrograman Python :</p>
+
+```python
+# variabel
+nama = "Nurico Vicyyanto"
+print(nama)
+
+namaDepan = "Nurico"
+namaBelakang = "Vicyyanto"
+hobi = "Badminton"
+# tanda \n dapat ditambahkan pada teks jika memerlukan spasi
+teks = namaDepan + " " + namaBelakang + " hobi bermain\n" + hobi
+print(teks)
+
+# tipe data string dapat dikalikan dengan integer
+print("=" * 10)
+
+# operasi perkalian dengan pendefinisial angka pada variabel
+panjang = 10
+lebar = 10
+luas = panjang * lebar
+print(luas)
+```
+
+#### Coming Soon...
